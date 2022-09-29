@@ -1,2 +1,2 @@
 web: gunicorn school_drf.wsgi
-release: python manage.py collectstatic --noinput
+
