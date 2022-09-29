@@ -1,2 +1,2 @@
 web: gunicorn school_drf.wsgi
-config:set DISABLE_COLLECTSTATIC=1
+release: python manage.py collectstatic --noinput
